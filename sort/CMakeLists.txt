@@ -1,0 +1,2 @@
+AUX_SOURCE_DIRECTORY(. DIR_SORT)
+add_library(sort ${DIR_SORT})
