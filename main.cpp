@@ -1,8 +1,10 @@
 #include <iostream>
+#include <search.h>
+#include "binTree/binTree.h"
+
 using namespace std;
-extern int init();
+
 int main() {
-    init();
-    cout << "Hello, World!" << endl;
+
     return 0;
 }

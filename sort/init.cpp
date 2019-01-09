@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int init() {
+int initSort() {
     cout<<""<<endl;
     return 0;
 }
