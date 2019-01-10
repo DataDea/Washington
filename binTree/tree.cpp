@@ -102,3 +102,81 @@ void BinTree<T>::breadthFirst() {
         }
     }
 }
+
+/**
+ * 利用栈实现二叉树的非递归前序遍历
+ * @tparam T 节点的类型，类型由模板决定
+ */
+template<class T>
+void BinTree<T>::iterativePreorder() {
+    Stack<BinTreeNode<T> *> stack;
+    BinTreeNode<T> *p = root;
+    if (p != 0) {
+        stack.push(p);
+        while (!stack.empty()) {
+            p = stack.pop();
+            visit(p);
+            if (p->right != 0) {
+                stack.push(p->right);
+            }
+            if (p->left != 0) {
+                stack.push(p->left);
+            }
+        }
+    }
+}
+
+/**
+ * 非递归的后序遍历
+ * @tparam T 节点的类型，类型由模板决定
+ */
+template<class T>
+void BinTree<T>::iterativePostorder() {
+    Stack<BinTreeNode<T> *> stack;
+    BinTreeNode<T> *p = root, *q = root;
+    while (p != 0) {
+        for (; p->left != 0; p = p->left) {
+            stack.push(p);
+        }
+        while (p->right == 0 || p->right == q) {
+            visit(p);
+            q = p;
+            if (stack.empty()) {
+                return;
+            }
+            p = stack.push();
+        }
+        stack.push(p);
+        p = p->right;
+    }
+}
+
+/**
+ * 非递归的后序遍历
+ * @tparam T 节点的类型，类型由模板决定
+ */
+template<class T>
+void BinTree<T>::iterativeInorder() {
+    Stack<BinTreeNode<T> *> stack;
+    BinTreeNode<T> *p = root;
+    while (p != 0) {
+        while (p != 0) {
+            if (p->right) {
+                stack.push(p->right);
+            }
+            stack.push(p->left);
+            p = p->left;
+        }
+        p = stack.pop();
+        while (!stack.empty() && p->right == 0) {
+            visit(p);
+            p = stack.pop();
+        }
+        visit(p);
+        if (!stack.empty()) {
+            p = stack.pop();
+        } else {
+            p = 0;
+        }
+    }
+}
