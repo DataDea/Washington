@@ -180,3 +180,9 @@ void BinTree<T>::iterativeInorder() {
         }
     }
 }
+
+template <class T>
+void BinTree<T>::insert() {
+
+
+}
