@@ -1,0 +1,2 @@
+AUX_SOURCE_DIRECTORY(. DIR_THREADTREE)
+ADD_LIBRARY(threadTree ${DIR_THREADTREE} threadTree.h thread.cpp)

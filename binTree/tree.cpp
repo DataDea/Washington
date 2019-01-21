@@ -127,14 +127,17 @@ void BinTree<T>::iterativePreorder() {
 }
 
 /**
- * 非递归的后序遍历
+ * 非递归的后序遍历 LRV
  * @tparam T 节点的类型，类型由模板决定
+ *
+ * 这个算法注意理解左右节点切换的条件和如果保存栈的记录结果
  */
 template<class T>
 void BinTree<T>::iterativePostorder() {
     Stack<BinTreeNode<T> *> stack;
     BinTreeNode<T> *p = root, *q = root;
     while (p != 0) {
+        //去找最左边的节点并依次进入栈
         for (; p->left != 0; p = p->left) {
             stack.push(p);
         }
@@ -146,13 +149,14 @@ void BinTree<T>::iterativePostorder() {
             }
             p = stack.push();
         }
+        //保留根节点,切换到右节点
         stack.push(p);
         p = p->right;
     }
 }
 
 /**
- * 非递归的后序遍历
+ * 非递归的中序遍历 LVR
  * @tparam T 节点的类型，类型由模板决定
  */
 template<class T>
@@ -160,6 +164,7 @@ void BinTree<T>::iterativeInorder() {
     Stack<BinTreeNode<T> *> stack;
     BinTreeNode<T> *p = root;
     while (p != 0) {
+        //找左子树中最左边的节点，往栈中添加节点，如果节点有右节点时，需要先压到栈里
         while (p != 0) {
             if (p->right) {
                 stack.push(p->right);
@@ -168,10 +173,13 @@ void BinTree<T>::iterativeInorder() {
             p = p->left;
         }
         p = stack.pop();
+        //只有右兄弟为NULL或者没有右兄弟的节点才能访问
         while (!stack.empty() && p->right == 0) {
             visit(p);
+            //出栈
             p = stack.pop();
         }
+        //访问父节点
         visit(p);
         if (!stack.empty()) {
             p = stack.pop();
@@ -181,7 +189,7 @@ void BinTree<T>::iterativeInorder() {
     }
 }
 
-template <class T>
+template<class T>
 void BinTree<T>::insert() {
 
 

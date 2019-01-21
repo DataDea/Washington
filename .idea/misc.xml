@@ -5,6 +5,7 @@
     <sourceRoots>
       <file path="$PROJECT_DIR$/binTree" />
       <file path="$PROJECT_DIR$/sort" />
+      <file path="$PROJECT_DIR$/threadTree" />
     </sourceRoots>
   </component>
   <component name="JavaScriptSettings">
