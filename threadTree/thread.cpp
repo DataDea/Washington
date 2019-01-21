@@ -9,7 +9,7 @@
  * @tparam T
  */
 template<class T>
-void ThreadTree<T>::createThreadTree() {
+void ThreadTree<T>::createBinTree() {
 
 
 }
