@@ -1,12 +1,11 @@
 //
 // Created by 杨海 on 2019-01-22.
 //
-#include <iostream>
-
-using namespace std;
 #ifndef STRUCTCPP_THREADTREE_H
 #define STRUCTCPP_THREADTREE_H
-
+/**
+ * rflag,lflag的值代表的意义 1:左/右子树 0:前/后趋节点
+ */
 template<class T>
 class threadTreeNode {
 public:
@@ -20,6 +19,14 @@ public:
         value = e;
         r = right;
         l = left;
+        lflag = 0;
+        rflag = 0;
+    }
+
+    threadTreeNode() {
+        value = nullptr;
+        r = nullptr;
+        l = nullptr;
         lflag = 0;
         rflag = 0;
     }
@@ -39,11 +46,16 @@ public:
     void createBinTree();
 
     //遍历线索二叉树
-    void iterate();
+    void iterater();
 
     //线索话二叉树
-    void threaBinTree();
+    void threadBinTree(threadTreeNode<T> *cur, threadTreeNode<T> *&pre);
 
+    //获取前驱节点
+    threadTreeNode<T>* getPreThreadNode(threadTreeNode<T>* p);
+
+    //获取后驱节点
+    threadTreeNode<T>* getPostThreadNode(threadTreeNode<T>* p);
 };
 
 

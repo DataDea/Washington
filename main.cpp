@@ -4,7 +4,9 @@
 
 using namespace std;
 
-int main() {
+extern void initThreadTree();
 
+int main() {
+    initThreadTree();
     return 0;
 }
