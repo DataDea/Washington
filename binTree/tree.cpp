@@ -189,8 +189,52 @@ void BinTree<T>::iterativeInorder() {
     }
 }
 
+/**
+ * 二叉树的逆转
+ * 层次遍历的方式
+ *
+ * @tparam T
+ */
 template<class T>
-void BinTree<T>::insert() {
-
-
+void BinTree<T>::revertByQueueBinTree() {
+    /**
+     * 利用队列实现转置
+     */
+    BinTreeNode<T> *p = root;
+    BinTreeNode<T> *q = nullptr;
+    BinTreeNode<T> *temp = nullptr;
+    Queue<BinTreeNode<T> *> queue;
+    queue.enqueue(p);
+    while (!queue.empty()) {
+        q = queue.dequeue();
+        temp = q->left;
+        q->left = q->right;
+        q->right = temp;
+        if (q->left != nullptr) {
+            queue.enqueue(q->left);
+        }
+        if (q->right != nullptr) {
+            queue.enqueue(q->right);
+        }
+    }
 }
+
+/**
+ * 二叉树的逆转
+ * 层次遍历的方式
+ *
+ * @tparam T
+ */
+template<class T>
+void BinTree<T>::revertByStackBinTree(BinTreeNode<T> *node) {
+
+    BinTreeNode<T> *p;
+    if (node == nullptr) {
+        return;
+    } else {
+        p = node->left;
+        node->left = revertByStackBinTree(node->right);
+        node->right = revertByStackBinTree(p);
+    }
+}
+

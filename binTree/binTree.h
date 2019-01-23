@@ -99,6 +99,11 @@ public:
     void delteByCopying(BinTreeNode<T> *&&);
 
     void balance(T *, int, int);
+
+    void revertByQueueBinTree();
+
+    void revertByStackBinTree(BinTreeNode<T>* node);
+
 };
 
 template<class T>

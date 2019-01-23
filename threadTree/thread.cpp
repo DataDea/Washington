@@ -41,7 +41,12 @@ void ThreadTree<T>::iterater() {
 }
 
 /**
- * 线索话二叉树
+ * 我们采用中序遍历二叉树访问每一个树结点的时候，我们只知道当前结点，如何知道前驱结点呢？
+ * 我们能否考虑将刚刚访问的结点（pre）保存下来，每次访问树结点的时候，发现左孩子结点为NULL，
+ * 就将其线索化！它的前驱结点是不是pre结点呢？！tree->lchild = pre；那个刚刚访问的结点 (pre)的右孩子结点 为NULL，
+ * 那么将其线索化 pre 它的后继结点是不是当前结点呢？！pre->rchild = tree
+ *
+ * 线索话二叉树 中序遍历的方式
  * @tparam T
  */
 template<class T>
@@ -59,6 +64,7 @@ void ThreadTree<T>::threadBinTree(threadTreeNode<T> *cur, threadTreeNode<T> *&pr
         if (cur->r == nullptr) {
             cur->r = 0;
         }
+        //线索化pre节点
         if (pre->r) {
             pre->r = cur;
         }
