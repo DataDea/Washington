@@ -1,2 +1,2 @@
 AUX_SOURCE_DIRECTORY(. DIR_SORT)
-add_library(sort ${DIR_SORT})
+ADD_LIBRARY(sort ${DIR_SORT} insertSort.cpp)

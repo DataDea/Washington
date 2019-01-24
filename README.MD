@@ -20,7 +20,7 @@
 
 #### 创建线索二叉树---createThreadTree
 
-## 排序(sort)
+## 排序(insert)
 
 ### 简单排序
 

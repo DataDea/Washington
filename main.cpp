@@ -5,8 +5,9 @@
 using namespace std;
 
 extern void initThreadTree();
+extern void insert();
 
 int main() {
-    initThreadTree();
+    insert();
     return 0;
 }
