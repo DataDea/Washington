@@ -1,6 +1,6 @@
 #include <iostream>
 #include <search.h>
-#include "binTree/binTree.h"
+#include "bintree/binTree.h"
 
 using namespace std;
 

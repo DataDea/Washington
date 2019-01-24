@@ -7,6 +7,6 @@
 using namespace std;
 
 int initBinTree() {
-   cout<<"init binTree"<<endl;
+   cout<<"init bintree"<<endl;
     return 0;
 }

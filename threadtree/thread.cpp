@@ -37,6 +37,7 @@ template<class T>
 void ThreadTree<T>::iterater() {
     cout<<"中序遍历的结果为:"<<endl;
     threadTreeNode<T>* p = ThreadTree::root;
+    
 
 }
 

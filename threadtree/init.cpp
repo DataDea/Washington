@@ -6,6 +6,7 @@
 
 using namespace std;
 
-void initThreadTree() {
+int initThreadTree() {
     cout << "thread tree is enging" << endl;
+    return 1;
 }

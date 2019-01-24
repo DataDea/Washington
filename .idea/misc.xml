@@ -3,9 +3,10 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <sourceRoots>
-      <file path="$PROJECT_DIR$/binTree" />
+      <file path="$PROJECT_DIR$/bintree" />
+      <file path="$PROJECT_DIR$/list" />
       <file path="$PROJECT_DIR$/sort" />
-      <file path="$PROJECT_DIR$/threadTree" />
+      <file path="$PROJECT_DIR$/threadtree" />
     </sourceRoots>
   </component>
   <component name="JavaScriptSettings">

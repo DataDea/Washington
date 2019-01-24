@@ -13,7 +13,7 @@
 #### 非递归的方式
 ##### 前序---iterativePreorder
 ##### 中序---iterativePostorder
-##### 后序
+##### 后序---iterativePostorder
 ### 广度遍历---breadthFirst
 
 ## 线索二叉树(threadTree)
@@ -23,3 +23,6 @@
 ## 排序(sort)
 
 ### 简单排序
+
+
+## 链表(list)
