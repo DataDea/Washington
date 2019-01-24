@@ -1,2 +1,2 @@
 AUX_SOURCE_DIRECTORY(. DIR_LIST)
-ADD_LIBRARY(list ${DIR_LIST})
+ADD_LIBRARY(list ${DIR_LIST} list.h list.cpp)
