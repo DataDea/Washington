@@ -1,13 +1,14 @@
 #include <iostream>
-#include <search.h>
-#include "bintree/binTree.h"
+#include "list/list.h"
 
 using namespace std;
 
-extern void initThreadTree();
-extern void insert();
+extern void iterateList();
+
+extern void createList();
 
 int main() {
-    insert();
+    createList();
+    iterateList();
     return 0;
 }

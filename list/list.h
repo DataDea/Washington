@@ -10,12 +10,30 @@ class ListNode {
 public:
     T el;
     ListNode *next;
-    ListNode *head;
+
+public:
+    ListNode(const T &v, const ListNode *&ptr) {
+        el = v;
+        next = ptr;
+    }
+};
+
+template<class T>
+class List {
+
+public:
+    ListNode<T> *head;
+    ListNode<T> *tail;
+    int size;
 
 public:
     void createList();
+
+    ListNode<T> *revertListByStack(ListNode<T> *tmp);
+
+    void revertListNoStack();
+
     void iterateList();
-    void revertList();
 
 };
 
