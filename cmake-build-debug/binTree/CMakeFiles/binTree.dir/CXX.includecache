@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yanghai/CLionProjects/structcpp/bintree/binTree.h
+stack
+-
+queue
+-
+iostream
+-
+
+/Users/yanghai/CLionProjects/structcpp/bintree/init.cpp
+iostream
+-
+
+/Users/yanghai/CLionProjects/structcpp/bintree/tree.cpp
+binTree.h
+/Users/yanghai/CLionProjects/structcpp/bintree/binTree.h
+queue
+-
+

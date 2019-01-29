@@ -6,15 +6,15 @@
     1. 构建二叉树
 
     2. 遍历二叉树
-        2.1 递归的方式
-            2.1.1 前序---preorder
-            2.1.2 中序---inorder
-            2.1.3 后序---postorder
+        2.1 递归的方式<br>
+            2.1.1 前序---preorder<br>
+            2.1.2 中序---inorder<br>
+            2.1.3 后序---postorder<br>
         2.2 ️非递归的方式<br>
-            2.2.1 前序---iterativePreorder
-            2.2.2 中序---iterativePostorder
-            2.2.3 后序---iterativePostorder
-            2.2.4 广度遍历---breadthFirst
+            2.2.1 前序---iterativePreorder<br>
+            2.2.2 中序---iterativePostorder<br>
+            2.2.3 后序---iterativePostorder<br>
+            2.2.4 广度遍历---breadthFirst<br>
 
 - **线索二叉树(threadTree)**:
 

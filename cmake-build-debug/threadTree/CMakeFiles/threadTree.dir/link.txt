@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libthreadtree.a  CMakeFiles/threadtree.dir/init.cpp.o CMakeFiles/threadtree.dir/thread.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libthreadtree.a

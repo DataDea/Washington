@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libbintree.a  CMakeFiles/bintree.dir/init.cpp.o CMakeFiles/bintree.dir/tree.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libbintree.a

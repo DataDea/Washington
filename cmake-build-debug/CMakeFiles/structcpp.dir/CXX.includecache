@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yanghai/CLionProjects/structcpp/list/list.h
+
+/Users/yanghai/CLionProjects/structcpp/main.cpp
+iostream
+-
+list/list.h
+/Users/yanghai/CLionProjects/structcpp/list/list.h
+

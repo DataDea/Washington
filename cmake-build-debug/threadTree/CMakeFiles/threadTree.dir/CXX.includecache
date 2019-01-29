@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yanghai/CLionProjects/structcpp/threadtree/init.cpp
+iostream
+-
+
+/Users/yanghai/CLionProjects/structcpp/threadtree/thread.cpp
+iostream
+-
+threadTree.h
+/Users/yanghai/CLionProjects/structcpp/threadtree/threadTree.h
+
+/Users/yanghai/CLionProjects/structcpp/threadtree/threadTree.h
+

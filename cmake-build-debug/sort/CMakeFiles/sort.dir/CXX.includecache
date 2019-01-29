@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yanghai/CLionProjects/structcpp/sort/element.h
+
+/Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp
+iostream
+-
+element.h
+/Users/yanghai/CLionProjects/structcpp/sort/element.h
+

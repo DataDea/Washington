@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="structcpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\bintree\;CMake Files\sort\;CMake Files\threadtree\;CMake Files\list\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="structcpp">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/structcpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 structcpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="structcpp/fast">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/structcpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 structcpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bintree">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/libbintree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/Makefile&quot;  VERBOSE=1 bintree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bintree/fast">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/libbintree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/Makefile&quot;  VERBOSE=1 bintree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sort">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/libsort.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/Makefile&quot;  VERBOSE=1 sort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sort/fast">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/libsort.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/Makefile&quot;  VERBOSE=1 sort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threadtree">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/libthreadtree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/Makefile&quot;  VERBOSE=1 threadtree"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threadtree/fast">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/libthreadtree.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/Makefile&quot;  VERBOSE=1 threadtree/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/liblist.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/Makefile&quot;  VERBOSE=1 list"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list/fast">
+				<Option output="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/liblist.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/Makefile&quot;  VERBOSE=1 list/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/bintree/init.cpp">
+			<Option target="bintree"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/bintree/tree.cpp">
+			<Option target="bintree"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/list/init.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/list/list.cpp">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/list/list.h">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/main.cpp">
+			<Option target="structcpp"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/init.cpp">
+			<Option target="sort"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp">
+			<Option target="sort"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/threadtree/init.cpp">
+			<Option target="threadtree"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/threadtree/thread.cpp">
+			<Option target="threadtree"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/bintree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bintree\"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sort\"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/threadtree/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\threadtree\"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/list/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\list\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
