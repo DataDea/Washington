@@ -19,7 +19,7 @@ public:
 };
 
 template<class T>
-class List {
+class LinkList {
 
 public:
     ListNode<T> *head;

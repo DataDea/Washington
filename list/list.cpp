@@ -2,8 +2,8 @@
 // Created by 杨海 on 2019-01-24.
 //
 
-#include "list.h"
 #include <iostream>
+#include "list.h"
 
 using namespace std;
 
@@ -12,13 +12,13 @@ using namespace std;
  * @tparam T
  */
 template<class T>
-void List<T>::createList() {
+void LinkList<T>::createList() {
 
     int input;
     ListNode<T> *cur;
     cout << "请输入链表节点的值" << endl;
     cin >> input;
-    if (List<T>::head == nullptr) {
+    if (LinkList<T>::head == nullptr) {
         cur = new ListNode<T>(input, nullptr);
         head = cur;
         tail = cur;
@@ -43,9 +43,9 @@ void List<T>::createList() {
  * @tparam T
  */
 template<class T>
-void List<T>::iterateList() {
+void LinkList<T>::iterateList() {
 
-    ListNode<T> *temp = List<T>::head;
+    ListNode<T> *temp = LinkList<T>::head;
     while (temp != nullptr) {
         cout << temp->el << endl;
         temp = temp->next;
@@ -58,13 +58,13 @@ void List<T>::iterateList() {
  * @tparam T
  */
 template<class T>
-ListNode<T> *List<T>::revertListByStack(ListNode<T> *node) {
+ListNode<T> *LinkList<T>::revertListByStack(ListNode<T> *node) {
 
     ListNode<T> *temp = head;
     if (temp == nullptr) {
         return;
     } else {
-        temp = revertListByStack();
+        temp = revertListByStack(temp);
         temp->next->next = temp;
         temp->next = nullptr;
         return temp;
@@ -76,17 +76,6 @@ ListNode<T> *List<T>::revertListByStack(ListNode<T> *node) {
  * @tparam T
  */
 template<class T>
-void List<T>::revertListNoStack() {
+void LinkList<T>::revertListNoStack() {
 
-    ListNode<T>* cur;
-    ListNode<T>* pre;
-    ListNode<T>* tail;
-    ListNode<T>* temp;
-    if (head == nullptr || tail == nullptr) {
-        return;
-    } else {
-        while (tempv v) {
-
-        }
-    }
 }
