@@ -5,6 +5,10 @@
 #ifndef STRUCTCPP_LIST_H
 #define STRUCTCPP_LIST_H
 
+#include <iostream>
+
+using namespace std;
+
 template<class T>
 class ListNode {
 public:
@@ -31,7 +35,7 @@ public:
 
     ListNode<T> *revertListByStack(ListNode<T> *tmp);
 
-    void revertListNoStack();
+    ListNode<T> *revertListNoStack(ListNode<T> *head);
 
     void iterateList();
 

@@ -163,17 +163,17 @@ threadtree/fast:
 .PHONY : threadtree/fast
 
 #=============================================================================
-# Target rules for targets named list
+# Target rules for targets named linkTable
 
 # Build rule for target.
-list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list
-.PHONY : list
+linkTable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 linkTable
+.PHONY : linkTable
 
 # fast build rule for target.
-list/fast:
-	$(MAKE) -f list/CMakeFiles/list.dir/build.make list/CMakeFiles/list.dir/build
-.PHONY : list/fast
+linkTable/fast:
+	$(MAKE) -f linkTable/CMakeFiles/linkTable.dir/build.make linkTable/CMakeFiles/linkTable.dir/build
+.PHONY : linkTable/fast
 
 main.o: main.cpp.o
 
@@ -214,7 +214,7 @@ help:
 	@echo "... bintree"
 	@echo "... sort"
 	@echo "... threadtree"
-	@echo "... list"
+	@echo "... linkTable"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

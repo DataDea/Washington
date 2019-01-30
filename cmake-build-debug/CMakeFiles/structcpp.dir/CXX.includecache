@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/yanghai/CLionProjects/structcpp/list/list.h
+/Users/yanghai/CLionProjects/structcpp/linkTable/linklist.h
+iostream
+-
 
 /Users/yanghai/CLionProjects/structcpp/main.cpp
 iostream
 -
-list/list.h
-/Users/yanghai/CLionProjects/structcpp/list/list.h
+linkTable/linklist.h
+/Users/yanghai/CLionProjects/structcpp/linkTable/linklist.h
 

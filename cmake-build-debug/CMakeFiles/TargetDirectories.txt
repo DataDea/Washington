@@ -10,6 +10,6 @@
 /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/CMakeFiles/rebuild_cache.dir
 /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/CMakeFiles/edit_cache.dir
 /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/CMakeFiles/threadtree.dir
-/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/CMakeFiles/rebuild_cache.dir
-/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/CMakeFiles/edit_cache.dir
-/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/CMakeFiles/list.dir
+/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/linkTable/CMakeFiles/rebuild_cache.dir
+/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/linkTable/CMakeFiles/edit_cache.dir
+/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/linkTable/CMakeFiles/linkTable.dir

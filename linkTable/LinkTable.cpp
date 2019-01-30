@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "list.h"
+#include "linklist.h"
 
 using namespace std;
 
@@ -76,6 +76,21 @@ ListNode<T> *LinkList<T>::revertListByStack(ListNode<T> *node) {
  * @tparam T
  */
 template<class T>
-void LinkList<T>::revertListNoStack() {
+ListNode<T> *LinkList<T>::revertListNoStack(ListNode<T> *head) {
+
+    if (head == nullptr) {
+        return;
+    } else {
+        ListNode<T> *pre = head;
+        ListNode<T> *cur = head->next;
+        ListNode<T> *temp = head->next->next;
+        while (cur != nullptr) {
+            temp = cur->next; //temp作为中间节点
+            cur->next = pre;  //当前节点指向头节点
+            pre = cur;        //指针后移
+            cur = temp;       //指针后移
+        }
+        head->next = nullptr; //将最后的节点的指针设置为空
+    }
 
 }

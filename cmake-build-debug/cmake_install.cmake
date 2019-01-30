@@ -37,7 +37,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/bintree/cmake_install.cmake")
   include("/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/cmake_install.cmake")
   include("/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/threadtree/cmake_install.cmake")
-  include("/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/list/cmake_install.cmake")
+  include("/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/linkTable/cmake_install.cmake")
 
 endif()
 

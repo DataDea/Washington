@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/yanghai/CLionProjects/structcpp/cmake-build-debug
 CMakeFiles/structcpp.dir/all: bintree/CMakeFiles/bintree.dir/all
 CMakeFiles/structcpp.dir/all: sort/CMakeFiles/sort.dir/all
 CMakeFiles/structcpp.dir/all: threadtree/CMakeFiles/threadtree.dir/all
-CMakeFiles/structcpp.dir/all: list/CMakeFiles/list.dir/all
+CMakeFiles/structcpp.dir/all: linkTable/CMakeFiles/linkTable.dir/all
 	$(MAKE) -f CMakeFiles/structcpp.dir/build.make CMakeFiles/structcpp.dir/depend
 	$(MAKE) -f CMakeFiles/structcpp.dir/build.make CMakeFiles/structcpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target structcpp"
@@ -270,57 +270,57 @@ clean: threadtree/CMakeFiles/threadtree.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory list
+# Directory level rules for directory linkTable
 
 # Convenience name for "all" pass in the directory.
-list/all: list/CMakeFiles/list.dir/all
+linkTable/all: linkTable/CMakeFiles/linkTable.dir/all
 
-.PHONY : list/all
+.PHONY : linkTable/all
 
 # Convenience name for "clean" pass in the directory.
-list/clean: list/CMakeFiles/list.dir/clean
+linkTable/clean: linkTable/CMakeFiles/linkTable.dir/clean
 
-.PHONY : list/clean
+.PHONY : linkTable/clean
 
 # Convenience name for "preinstall" pass in the directory.
-list/preinstall:
+linkTable/preinstall:
 
-.PHONY : list/preinstall
+.PHONY : linkTable/preinstall
 
 #=============================================================================
-# Target rules for target list/CMakeFiles/list.dir
+# Target rules for target linkTable/CMakeFiles/linkTable.dir
 
 # All Build rule for target.
-list/CMakeFiles/list.dir/all:
-	$(MAKE) -f list/CMakeFiles/list.dir/build.make list/CMakeFiles/list.dir/depend
-	$(MAKE) -f list/CMakeFiles/list.dir/build.make list/CMakeFiles/list.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target list"
-.PHONY : list/CMakeFiles/list.dir/all
+linkTable/CMakeFiles/linkTable.dir/all:
+	$(MAKE) -f linkTable/CMakeFiles/linkTable.dir/build.make linkTable/CMakeFiles/linkTable.dir/depend
+	$(MAKE) -f linkTable/CMakeFiles/linkTable.dir/build.make linkTable/CMakeFiles/linkTable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=4,5,6 "Built target linkTable"
+.PHONY : linkTable/CMakeFiles/linkTable.dir/all
 
 # Include target in all.
-all: list/CMakeFiles/list.dir/all
+all: linkTable/CMakeFiles/linkTable.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-list/CMakeFiles/list.dir/rule: cmake_check_build_system
+linkTable/CMakeFiles/linkTable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 list/CMakeFiles/list.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 linkTable/CMakeFiles/linkTable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles 0
-.PHONY : list/CMakeFiles/list.dir/rule
+.PHONY : linkTable/CMakeFiles/linkTable.dir/rule
 
 # Convenience name for target.
-list: list/CMakeFiles/list.dir/rule
+linkTable: linkTable/CMakeFiles/linkTable.dir/rule
 
-.PHONY : list
-
-# clean rule for target.
-list/CMakeFiles/list.dir/clean:
-	$(MAKE) -f list/CMakeFiles/list.dir/build.make list/CMakeFiles/list.dir/clean
-.PHONY : list/CMakeFiles/list.dir/clean
+.PHONY : linkTable
 
 # clean rule for target.
-clean: list/CMakeFiles/list.dir/clean
+linkTable/CMakeFiles/linkTable.dir/clean:
+	$(MAKE) -f linkTable/CMakeFiles/linkTable.dir/build.make linkTable/CMakeFiles/linkTable.dir/clean
+.PHONY : linkTable/CMakeFiles/linkTable.dir/clean
+
+# clean rule for target.
+clean: linkTable/CMakeFiles/linkTable.dir/clean
 
 .PHONY : clean
 

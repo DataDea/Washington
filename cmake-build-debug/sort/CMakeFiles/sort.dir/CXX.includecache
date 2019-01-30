@@ -8,6 +8,10 @@
 
 /Users/yanghai/CLionProjects/structcpp/sort/element.h
 
+/Users/yanghai/CLionProjects/structcpp/sort/init.cpp
+iostream
+-
+
 /Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp
 iostream
 -

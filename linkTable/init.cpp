@@ -7,7 +7,7 @@ using namespace std;
 
 int intiList() {
 
-    cout<<"the source of list"<<endl;
+    cout<<"the source of linkTable"<<endl;
     return 1;
 }
 
