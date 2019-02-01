@@ -31,7 +31,7 @@ public:
     int size;
 
 public:
-    void createList();
+    void generateList();
 
     ListNode<T> *revertListByStack(ListNode<T> *tmp);
 

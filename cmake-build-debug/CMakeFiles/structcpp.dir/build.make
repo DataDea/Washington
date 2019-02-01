@@ -83,6 +83,7 @@ structcpp: bintree/libbintree.a
 structcpp: sort/libsort.a
 structcpp: threadtree/libthreadtree.a
 structcpp: linkTable/liblinkTable.a
+structcpp: graph/libgraph.a
 structcpp: CMakeFiles/structcpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable structcpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/structcpp.dir/link.txt --verbose=$(VERBOSE)

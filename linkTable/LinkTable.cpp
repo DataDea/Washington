@@ -12,13 +12,13 @@ using namespace std;
  * @tparam T
  */
 template<class T>
-void LinkList<T>::createList() {
+void LinkList<T>::generateList() {
 
     int input;
     ListNode<T> *cur;
     cout << "请输入链表节点的值" << endl;
     cin >> input;
-    if (LinkList<T>::head == nullptr) {
+    if (head == nullptr) {
         cur = new ListNode<T>(input, nullptr);
         head = cur;
         tail = cur;

@@ -175,6 +175,19 @@ linkTable/fast:
 	$(MAKE) -f linkTable/CMakeFiles/linkTable.dir/build.make linkTable/CMakeFiles/linkTable.dir/build
 .PHONY : linkTable/fast
 
+#=============================================================================
+# Target rules for targets named graph
+
+# Build rule for target.
+graph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 graph
+.PHONY : graph
+
+# fast build rule for target.
+graph/fast:
+	$(MAKE) -f graph/CMakeFiles/graph.dir/build.make graph/CMakeFiles/graph.dir/build
+.PHONY : graph/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -215,6 +228,7 @@ help:
 	@echo "... sort"
 	@echo "... threadtree"
 	@echo "... linkTable"
+	@echo "... graph"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

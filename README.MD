@@ -1,6 +1,17 @@
 
     C++数据结构的实现，参考书C++数据结构与算法
 
+#### 代码结构
+```
+    master:最终稳定代码
+    dev:开发代码
+    test:测试代码
+    如果需要下载学习，请克隆master分支
+
+```
+
+#### 目录
+```
 - **二叉树(bintree)**:
 
     1. 构建二叉树
@@ -27,7 +38,8 @@
 
 - **链表(list)**:
 
-    1. 创建链表---createList
+    1. 创建链表---generateList
     2. 遍历链表---iterateList
     3. 链表反转(递归方式)--revertListByStack
     4. 链表反转(非递归方式)--revertListNoStack
+```

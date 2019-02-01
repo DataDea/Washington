@@ -4,6 +4,7 @@
   <component name="CidrRootsConfiguration">
     <sourceRoots>
       <file path="$PROJECT_DIR$/bintree" />
+      <file path="$PROJECT_DIR$/graph" />
       <file path="$PROJECT_DIR$/linkTable" />
       <file path="$PROJECT_DIR$/sort" />
       <file path="$PROJECT_DIR$/threadtree" />
