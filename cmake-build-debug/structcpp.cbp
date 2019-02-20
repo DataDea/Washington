@@ -308,7 +308,7 @@
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/main.cpp">
 			<Option target="structcpp"/>
 		</Unit>
-		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/bubbleSorg.cpp">
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/bubbleSort.cpp">
 			<Option target="sort"/>
 		</Unit>
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/init.cpp">

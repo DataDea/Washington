@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/yanghai/CLionProjects/structcpp/sort/element.h
-
-/Users/yanghai/CLionProjects/structcpp/sort/selectSort.cpp
-element.h
-/Users/yanghai/CLionProjects/structcpp/sort/element.h
+/Users/yanghai/CLionProjects/structcpp/sort/bubbleSort.cpp
 iostream
 -
+element.h
+/Users/yanghai/CLionProjects/structcpp/sort/element.h
+
+/Users/yanghai/CLionProjects/structcpp/sort/element.h
 

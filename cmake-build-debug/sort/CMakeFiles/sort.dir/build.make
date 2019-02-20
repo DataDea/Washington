@@ -57,18 +57,18 @@ include sort/CMakeFiles/sort.dir/progress.make
 # Include the compile flags for this target's objects.
 include sort/CMakeFiles/sort.dir/flags.make
 
-sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o: sort/CMakeFiles/sort.dir/flags.make
-sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o: ../sort/bubbleSorg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o"
-	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort.dir/bubbleSorg.cpp.o -c /Users/yanghai/CLionProjects/structcpp/sort/bubbleSorg.cpp
+sort/CMakeFiles/sort.dir/bubbleSort.cpp.o: sort/CMakeFiles/sort.dir/flags.make
+sort/CMakeFiles/sort.dir/bubbleSort.cpp.o: ../sort/bubbleSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sort/CMakeFiles/sort.dir/bubbleSort.cpp.o"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort.dir/bubbleSort.cpp.o -c /Users/yanghai/CLionProjects/structcpp/sort/bubbleSort.cpp
 
-sort/CMakeFiles/sort.dir/bubbleSorg.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sort.dir/bubbleSorg.cpp.i"
-	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yanghai/CLionProjects/structcpp/sort/bubbleSorg.cpp > CMakeFiles/sort.dir/bubbleSorg.cpp.i
+sort/CMakeFiles/sort.dir/bubbleSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sort.dir/bubbleSort.cpp.i"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yanghai/CLionProjects/structcpp/sort/bubbleSort.cpp > CMakeFiles/sort.dir/bubbleSort.cpp.i
 
-sort/CMakeFiles/sort.dir/bubbleSorg.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort.dir/bubbleSorg.cpp.s"
-	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghai/CLionProjects/structcpp/sort/bubbleSorg.cpp -o CMakeFiles/sort.dir/bubbleSorg.cpp.s
+sort/CMakeFiles/sort.dir/bubbleSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort.dir/bubbleSort.cpp.s"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghai/CLionProjects/structcpp/sort/bubbleSort.cpp -o CMakeFiles/sort.dir/bubbleSort.cpp.s
 
 sort/CMakeFiles/sort.dir/init.cpp.o: sort/CMakeFiles/sort.dir/flags.make
 sort/CMakeFiles/sort.dir/init.cpp.o: ../sort/init.cpp
@@ -111,7 +111,7 @@ sort/CMakeFiles/sort.dir/selectSort.cpp.s: cmake_force
 
 # Object files for target sort
 sort_OBJECTS = \
-"CMakeFiles/sort.dir/bubbleSorg.cpp.o" \
+"CMakeFiles/sort.dir/bubbleSort.cpp.o" \
 "CMakeFiles/sort.dir/init.cpp.o" \
 "CMakeFiles/sort.dir/insertSort.cpp.o" \
 "CMakeFiles/sort.dir/selectSort.cpp.o"
@@ -119,7 +119,7 @@ sort_OBJECTS = \
 # External object files for target sort
 sort_EXTERNAL_OBJECTS =
 
-sort/libsort.a: sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o
+sort/libsort.a: sort/CMakeFiles/sort.dir/bubbleSort.cpp.o
 sort/libsort.a: sort/CMakeFiles/sort.dir/init.cpp.o
 sort/libsort.a: sort/CMakeFiles/sort.dir/insertSort.cpp.o
 sort/libsort.a: sort/CMakeFiles/sort.dir/selectSort.cpp.o

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yanghai/CLionProjects/structcpp/sort/bubbleSorg.cpp" "/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o"
+  "/Users/yanghai/CLionProjects/structcpp/sort/bubbleSort.cpp" "/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/CMakeFiles/sort.dir/bubbleSort.cpp.o"
   "/Users/yanghai/CLionProjects/structcpp/sort/init.cpp" "/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/CMakeFiles/sort.dir/init.cpp.o"
   "/Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp" "/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/CMakeFiles/sort.dir/insertSort.cpp.o"
   "/Users/yanghai/CLionProjects/structcpp/sort/selectSort.cpp" "/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort/CMakeFiles/sort.dir/selectSort.cpp.o"

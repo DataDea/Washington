@@ -125,32 +125,32 @@ sort/fast:
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/build
 .PHONY : sort/fast
 
-bubbleSorg.o: bubbleSorg.cpp.o
+bubbleSort.o: bubbleSort.cpp.o
 
-.PHONY : bubbleSorg.o
+.PHONY : bubbleSort.o
 
 # target to build an object file
-bubbleSorg.cpp.o:
-	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o
-.PHONY : bubbleSorg.cpp.o
+bubbleSort.cpp.o:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/bubbleSort.cpp.o
+.PHONY : bubbleSort.cpp.o
 
-bubbleSorg.i: bubbleSorg.cpp.i
+bubbleSort.i: bubbleSort.cpp.i
 
-.PHONY : bubbleSorg.i
+.PHONY : bubbleSort.i
 
 # target to preprocess a source file
-bubbleSorg.cpp.i:
-	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/bubbleSorg.cpp.i
-.PHONY : bubbleSorg.cpp.i
+bubbleSort.cpp.i:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/bubbleSort.cpp.i
+.PHONY : bubbleSort.cpp.i
 
-bubbleSorg.s: bubbleSorg.cpp.s
+bubbleSort.s: bubbleSort.cpp.s
 
-.PHONY : bubbleSorg.s
+.PHONY : bubbleSort.s
 
 # target to generate assembly for a file
-bubbleSorg.cpp.s:
-	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/bubbleSorg.cpp.s
-.PHONY : bubbleSorg.cpp.s
+bubbleSort.cpp.s:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/bubbleSort.cpp.s
+.PHONY : bubbleSort.cpp.s
 
 init.o: init.cpp.o
 
@@ -242,9 +242,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... sort"
-	@echo "... bubbleSorg.o"
-	@echo "... bubbleSorg.i"
-	@echo "... bubbleSorg.s"
+	@echo "... bubbleSort.o"
+	@echo "... bubbleSort.i"
+	@echo "... bubbleSort.s"
 	@echo "... init.o"
 	@echo "... init.i"
 	@echo "... init.s"
