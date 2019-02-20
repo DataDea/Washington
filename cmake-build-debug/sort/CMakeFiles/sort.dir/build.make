@@ -57,9 +57,22 @@ include sort/CMakeFiles/sort.dir/progress.make
 # Include the compile flags for this target's objects.
 include sort/CMakeFiles/sort.dir/flags.make
 
+sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o: sort/CMakeFiles/sort.dir/flags.make
+sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o: ../sort/bubbleSorg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort.dir/bubbleSorg.cpp.o -c /Users/yanghai/CLionProjects/structcpp/sort/bubbleSorg.cpp
+
+sort/CMakeFiles/sort.dir/bubbleSorg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sort.dir/bubbleSorg.cpp.i"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yanghai/CLionProjects/structcpp/sort/bubbleSorg.cpp > CMakeFiles/sort.dir/bubbleSorg.cpp.i
+
+sort/CMakeFiles/sort.dir/bubbleSorg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort.dir/bubbleSorg.cpp.s"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghai/CLionProjects/structcpp/sort/bubbleSorg.cpp -o CMakeFiles/sort.dir/bubbleSorg.cpp.s
+
 sort/CMakeFiles/sort.dir/init.cpp.o: sort/CMakeFiles/sort.dir/flags.make
 sort/CMakeFiles/sort.dir/init.cpp.o: ../sort/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sort/CMakeFiles/sort.dir/init.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sort/CMakeFiles/sort.dir/init.cpp.o"
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort.dir/init.cpp.o -c /Users/yanghai/CLionProjects/structcpp/sort/init.cpp
 
 sort/CMakeFiles/sort.dir/init.cpp.i: cmake_force
@@ -72,7 +85,7 @@ sort/CMakeFiles/sort.dir/init.cpp.s: cmake_force
 
 sort/CMakeFiles/sort.dir/insertSort.cpp.o: sort/CMakeFiles/sort.dir/flags.make
 sort/CMakeFiles/sort.dir/insertSort.cpp.o: ../sort/insertSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sort/CMakeFiles/sort.dir/insertSort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sort/CMakeFiles/sort.dir/insertSort.cpp.o"
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort.dir/insertSort.cpp.o -c /Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp
 
 sort/CMakeFiles/sort.dir/insertSort.cpp.i: cmake_force
@@ -83,19 +96,36 @@ sort/CMakeFiles/sort.dir/insertSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort.dir/insertSort.cpp.s"
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp -o CMakeFiles/sort.dir/insertSort.cpp.s
 
+sort/CMakeFiles/sort.dir/selectSort.cpp.o: sort/CMakeFiles/sort.dir/flags.make
+sort/CMakeFiles/sort.dir/selectSort.cpp.o: ../sort/selectSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sort/CMakeFiles/sort.dir/selectSort.cpp.o"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sort.dir/selectSort.cpp.o -c /Users/yanghai/CLionProjects/structcpp/sort/selectSort.cpp
+
+sort/CMakeFiles/sort.dir/selectSort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sort.dir/selectSort.cpp.i"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/yanghai/CLionProjects/structcpp/sort/selectSort.cpp > CMakeFiles/sort.dir/selectSort.cpp.i
+
+sort/CMakeFiles/sort.dir/selectSort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sort.dir/selectSort.cpp.s"
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/yanghai/CLionProjects/structcpp/sort/selectSort.cpp -o CMakeFiles/sort.dir/selectSort.cpp.s
+
 # Object files for target sort
 sort_OBJECTS = \
+"CMakeFiles/sort.dir/bubbleSorg.cpp.o" \
 "CMakeFiles/sort.dir/init.cpp.o" \
-"CMakeFiles/sort.dir/insertSort.cpp.o"
+"CMakeFiles/sort.dir/insertSort.cpp.o" \
+"CMakeFiles/sort.dir/selectSort.cpp.o"
 
 # External object files for target sort
 sort_EXTERNAL_OBJECTS =
 
+sort/libsort.a: sort/CMakeFiles/sort.dir/bubbleSorg.cpp.o
 sort/libsort.a: sort/CMakeFiles/sort.dir/init.cpp.o
 sort/libsort.a: sort/CMakeFiles/sort.dir/insertSort.cpp.o
+sort/libsort.a: sort/CMakeFiles/sort.dir/selectSort.cpp.o
 sort/libsort.a: sort/CMakeFiles/sort.dir/build.make
 sort/libsort.a: sort/CMakeFiles/sort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsort.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/yanghai/CLionProjects/structcpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsort.a"
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && $(CMAKE_COMMAND) -P CMakeFiles/sort.dir/cmake_clean_target.cmake
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug/sort && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sort.dir/link.txt --verbose=$(VERBOSE)
 

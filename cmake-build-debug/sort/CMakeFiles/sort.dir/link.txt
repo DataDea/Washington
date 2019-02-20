@@ -1,2 +1,2 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libsort.a  CMakeFiles/sort.dir/init.cpp.o CMakeFiles/sort.dir/insertSort.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ar qc libsort.a  CMakeFiles/sort.dir/bubbleSorg.cpp.o CMakeFiles/sort.dir/init.cpp.o CMakeFiles/sort.dir/insertSort.cpp.o CMakeFiles/sort.dir/selectSort.cpp.o
 /Library/Developer/CommandLineTools/usr/bin/ranlib libsort.a

@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include <regex>
 #include "element.h"
 
 using namespace std;
@@ -20,19 +21,21 @@ void insertSort(Element<T> element[], int n) {
         //记录最终的插入位置
         element[j] = temp;
     }
+
+    //输出元素的值
+    for (int j = 0; j < 10; j++) {
+        cout << element[j].el;
+    }
 }
 
-void insert() {
+void testInsert() {
 
     Element<int> elements[10];
     int temp;
     for (int i = 0; i < 10; i++) {
-        cout<<"请输入值"<<endl;
-        cin>>temp;
+        cout << "请输入[0-9]或者[0-9]拼接的值" << endl;
+        cin >> temp;
         elements[i].el = temp;
     }
     insertSort(elements, 10);
-    for (int j = 0; j < 10; j++) {
-        cout<<elements[j].el;
-    }
 }

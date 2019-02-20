@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sort.dir/bubbleSorg.cpp.o"
   "CMakeFiles/sort.dir/init.cpp.o"
   "CMakeFiles/sort.dir/insertSort.cpp.o"
+  "CMakeFiles/sort.dir/selectSort.cpp.o"
   "libsort.pdb"
   "libsort.a"
 )
