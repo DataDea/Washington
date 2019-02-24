@@ -17,15 +17,18 @@ void swap(Element<T> *t1, Element<T> *t2) {
 }
 
 /**
- * 冒泡排序类似于大树沉底的方式
+ * 冒泡排序类似大数沉底的方式
  */
 template<class T>
 void bubbleSort(Element<T> element[], int n) {
 
-    for (int i = 0; i < n - 1; i++) {
+    for (int i = 0; i < n - 1; i++) {  //已进行n-1次比较
         for (int j = n - 1; j > i; j++) {
-            if (element[j].el < element[j - 1].el) {
-                //这里类似于大树沉底的方法
+            if (element[j].el < element[j - 1].el) { //每一趟进行i-1次比较
+                //这里类似大数沉底的方式
+                /**
+                 * 这里可以设置标识位进行判断，使得排序的效率更加高
+                 */
                 swap(&element[j], &element[j - 1]);
             }
         }

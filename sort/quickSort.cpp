@@ -6,7 +6,9 @@
 #include "element.h"
 
 using namespace std;
-
+/**
+ * 快速排序涉及到边界的选择
+ */
 template<class T>
 void quickSort(Element<T> *element, int start, int end) {
     if (start < end) {
@@ -14,20 +16,23 @@ void quickSort(Element<T> *element, int start, int end) {
         int i = start, j = end;
         while (i < j) {
             while (i < j && element[j].el >= store.el) {
-                //继续找
+                //从右边找比边界小的
                 j--;
             }
+            //交换位置
             if (i < j) {
                 element[i] = element[j];
             }
             while (i < j && element[i].el < store.el) {
+                //从左边找比边界大的
                 i++;
             }
+            //交换位置
             if (i < j) {
                 element[j] = element[i];
             }
         }
-        //移位中介
+        //以为边界
         element[i] = store;
         quickSort(element, i + 1, end);
         quickSort(element, start, i - 1);

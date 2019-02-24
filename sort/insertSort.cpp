@@ -13,6 +13,7 @@ void insertSort(Element<T> element[], int n) {
     Element<T> temp;
     int j;
     for (int i = 1; i < n; i++) {
+        //每次选中的元素都和前i-1个进行比较，并找到最终的插入位置
         temp = element[i];
         for (j = i - 1; j >= 0 && temp.el < element[j].el; j--) {
             //移位

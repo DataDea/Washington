@@ -16,12 +16,15 @@ void swap(Element<T> *t1, Element<T> *t2) {
     return;
 }
 
+/**
+ * 每个元素元素都和它后面的元素进行比较，符合条件的交换位置
+ */
 template<class T>
 void selection(Element<T> element[], int n) {
 
     for (int i = 0, j, least; i < n - 1; i++) {
         for (j = i + 1, least = i; j < n; j++) {
-            //找最小的元素
+            //找最小的元素 least用来记录要交换元素的位置
             if (element[j].el < element[least].el) {
                 least = j;
             }

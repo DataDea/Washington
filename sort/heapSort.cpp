@@ -39,6 +39,9 @@ void heapBuild(Element<T> a[], int root, int length) {
     }
 }
 
+/**
+ * 堆有两种 大顶堆/小顶堆 都只能很明确堆顶的元素，不能说明初对堆顶外的其他元素，每次都需要从新建堆
+ */
 template<class T>
 void heapSort(Element<T> a[], int len) {
     for (int i = len / 2; i >= 0; --i)//从最后一个非叶子节点的父结点开始建堆
