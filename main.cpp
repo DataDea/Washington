@@ -3,7 +3,8 @@
 using namespace std;
 extern void testSelection();
 extern void testBubble();
+extern void testQuickSort();
 int main() {
-    testBubble();
+    testQuickSort();
     return 0;
 }

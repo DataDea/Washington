@@ -9,6 +9,9 @@ sort/CMakeFiles/sort.dir/init.cpp.o
 sort/CMakeFiles/sort.dir/insertSort.cpp.o
  /Users/yanghai/CLionProjects/structcpp/sort/element.h
  /Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp
+sort/CMakeFiles/sort.dir/quickSort.cpp.o
+ /Users/yanghai/CLionProjects/structcpp/sort/element.h
+ /Users/yanghai/CLionProjects/structcpp/sort/quickSort.cpp
 sort/CMakeFiles/sort.dir/selectSort.cpp.o
  /Users/yanghai/CLionProjects/structcpp/sort/element.h
  /Users/yanghai/CLionProjects/structcpp/sort/selectSort.cpp

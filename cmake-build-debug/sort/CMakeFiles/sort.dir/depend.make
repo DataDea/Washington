@@ -9,6 +9,9 @@ sort/CMakeFiles/sort.dir/init.cpp.o: ../sort/init.cpp
 sort/CMakeFiles/sort.dir/insertSort.cpp.o: ../sort/element.h
 sort/CMakeFiles/sort.dir/insertSort.cpp.o: ../sort/insertSort.cpp
 
+sort/CMakeFiles/sort.dir/quickSort.cpp.o: ../sort/element.h
+sort/CMakeFiles/sort.dir/quickSort.cpp.o: ../sort/quickSort.cpp
+
 sort/CMakeFiles/sort.dir/selectSort.cpp.o: ../sort/element.h
 sort/CMakeFiles/sort.dir/selectSort.cpp.o: ../sort/selectSort.cpp
 

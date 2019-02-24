@@ -206,6 +206,33 @@ insertSort.cpp.s:
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/insertSort.cpp.s
 .PHONY : insertSort.cpp.s
 
+quickSort.o: quickSort.cpp.o
+
+.PHONY : quickSort.o
+
+# target to build an object file
+quickSort.cpp.o:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/quickSort.cpp.o
+.PHONY : quickSort.cpp.o
+
+quickSort.i: quickSort.cpp.i
+
+.PHONY : quickSort.i
+
+# target to preprocess a source file
+quickSort.cpp.i:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/quickSort.cpp.i
+.PHONY : quickSort.cpp.i
+
+quickSort.s: quickSort.cpp.s
+
+.PHONY : quickSort.s
+
+# target to generate assembly for a file
+quickSort.cpp.s:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/quickSort.cpp.s
+.PHONY : quickSort.cpp.s
+
 selectSort.o: selectSort.cpp.o
 
 .PHONY : selectSort.o
@@ -251,6 +278,9 @@ help:
 	@echo "... insertSort.o"
 	@echo "... insertSort.i"
 	@echo "... insertSort.s"
+	@echo "... quickSort.o"
+	@echo "... quickSort.i"
+	@echo "... quickSort.s"
 	@echo "... selectSort.o"
 	@echo "... selectSort.i"
 	@echo "... selectSort.s"

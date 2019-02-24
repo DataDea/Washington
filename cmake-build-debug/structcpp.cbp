@@ -317,6 +317,9 @@
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp">
 			<Option target="sort"/>
 		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/quickSort.cpp">
+			<Option target="sort"/>
+		</Unit>
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/selectSort.cpp">
 			<Option target="sort"/>
 		</Unit>
