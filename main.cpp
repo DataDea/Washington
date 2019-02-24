@@ -4,7 +4,8 @@ using namespace std;
 extern void testSelection();
 extern void testBubble();
 extern void testQuickSort();
+extern void testMergeSort();
 int main() {
-    testQuickSort();
+    testMergeSort();
     return 0;
 }

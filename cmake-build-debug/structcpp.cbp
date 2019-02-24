@@ -311,16 +311,28 @@
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/bubbleSort.cpp">
 			<Option target="sort"/>
 		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/heapSort.cpp">
+			<Option target="sort"/>
+		</Unit>
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/init.cpp">
 			<Option target="sort"/>
 		</Unit>
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/insertSort.cpp">
 			<Option target="sort"/>
 		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/mergeSort.cpp">
+			<Option target="sort"/>
+		</Unit>
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/quickSort.cpp">
 			<Option target="sort"/>
 		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/radixSort.cpp">
+			<Option target="sort"/>
+		</Unit>
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/selectSort.cpp">
+			<Option target="sort"/>
+		</Unit>
+		<Unit filename="/Users/yanghai/CLionProjects/structcpp/sort/shellSort.cpp">
 			<Option target="sort"/>
 		</Unit>
 		<Unit filename="/Users/yanghai/CLionProjects/structcpp/threadtree/init.cpp">

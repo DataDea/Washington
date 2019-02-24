@@ -152,6 +152,33 @@ bubbleSort.cpp.s:
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/bubbleSort.cpp.s
 .PHONY : bubbleSort.cpp.s
 
+heapSort.o: heapSort.cpp.o
+
+.PHONY : heapSort.o
+
+# target to build an object file
+heapSort.cpp.o:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/heapSort.cpp.o
+.PHONY : heapSort.cpp.o
+
+heapSort.i: heapSort.cpp.i
+
+.PHONY : heapSort.i
+
+# target to preprocess a source file
+heapSort.cpp.i:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/heapSort.cpp.i
+.PHONY : heapSort.cpp.i
+
+heapSort.s: heapSort.cpp.s
+
+.PHONY : heapSort.s
+
+# target to generate assembly for a file
+heapSort.cpp.s:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/heapSort.cpp.s
+.PHONY : heapSort.cpp.s
+
 init.o: init.cpp.o
 
 .PHONY : init.o
@@ -206,6 +233,33 @@ insertSort.cpp.s:
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/insertSort.cpp.s
 .PHONY : insertSort.cpp.s
 
+mergeSort.o: mergeSort.cpp.o
+
+.PHONY : mergeSort.o
+
+# target to build an object file
+mergeSort.cpp.o:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/mergeSort.cpp.o
+.PHONY : mergeSort.cpp.o
+
+mergeSort.i: mergeSort.cpp.i
+
+.PHONY : mergeSort.i
+
+# target to preprocess a source file
+mergeSort.cpp.i:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/mergeSort.cpp.i
+.PHONY : mergeSort.cpp.i
+
+mergeSort.s: mergeSort.cpp.s
+
+.PHONY : mergeSort.s
+
+# target to generate assembly for a file
+mergeSort.cpp.s:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/mergeSort.cpp.s
+.PHONY : mergeSort.cpp.s
+
 quickSort.o: quickSort.cpp.o
 
 .PHONY : quickSort.o
@@ -232,6 +286,33 @@ quickSort.s: quickSort.cpp.s
 quickSort.cpp.s:
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/quickSort.cpp.s
 .PHONY : quickSort.cpp.s
+
+radixSort.o: radixSort.cpp.o
+
+.PHONY : radixSort.o
+
+# target to build an object file
+radixSort.cpp.o:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/radixSort.cpp.o
+.PHONY : radixSort.cpp.o
+
+radixSort.i: radixSort.cpp.i
+
+.PHONY : radixSort.i
+
+# target to preprocess a source file
+radixSort.cpp.i:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/radixSort.cpp.i
+.PHONY : radixSort.cpp.i
+
+radixSort.s: radixSort.cpp.s
+
+.PHONY : radixSort.s
+
+# target to generate assembly for a file
+radixSort.cpp.s:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/radixSort.cpp.s
+.PHONY : radixSort.cpp.s
 
 selectSort.o: selectSort.cpp.o
 
@@ -260,6 +341,33 @@ selectSort.cpp.s:
 	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/selectSort.cpp.s
 .PHONY : selectSort.cpp.s
 
+shellSort.o: shellSort.cpp.o
+
+.PHONY : shellSort.o
+
+# target to build an object file
+shellSort.cpp.o:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/shellSort.cpp.o
+.PHONY : shellSort.cpp.o
+
+shellSort.i: shellSort.cpp.i
+
+.PHONY : shellSort.i
+
+# target to preprocess a source file
+shellSort.cpp.i:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/shellSort.cpp.i
+.PHONY : shellSort.cpp.i
+
+shellSort.s: shellSort.cpp.s
+
+.PHONY : shellSort.s
+
+# target to generate assembly for a file
+shellSort.cpp.s:
+	cd /Users/yanghai/CLionProjects/structcpp/cmake-build-debug && $(MAKE) -f sort/CMakeFiles/sort.dir/build.make sort/CMakeFiles/sort.dir/shellSort.cpp.s
+.PHONY : shellSort.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -272,18 +380,30 @@ help:
 	@echo "... bubbleSort.o"
 	@echo "... bubbleSort.i"
 	@echo "... bubbleSort.s"
+	@echo "... heapSort.o"
+	@echo "... heapSort.i"
+	@echo "... heapSort.s"
 	@echo "... init.o"
 	@echo "... init.i"
 	@echo "... init.s"
 	@echo "... insertSort.o"
 	@echo "... insertSort.i"
 	@echo "... insertSort.s"
+	@echo "... mergeSort.o"
+	@echo "... mergeSort.i"
+	@echo "... mergeSort.s"
 	@echo "... quickSort.o"
 	@echo "... quickSort.i"
 	@echo "... quickSort.s"
+	@echo "... radixSort.o"
+	@echo "... radixSort.i"
+	@echo "... radixSort.s"
 	@echo "... selectSort.o"
 	@echo "... selectSort.i"
 	@echo "... selectSort.s"
+	@echo "... shellSort.o"
+	@echo "... shellSort.i"
+	@echo "... shellSort.s"
 .PHONY : help
 
 

@@ -31,7 +31,7 @@ void selection(Element<T> element[], int n) {
     }
     //输出结果
     for (int j = 0; j < 10; j++) {
-        cout << element[j].el;
+        cout << element[j].el <<endl;
     }
 }
 

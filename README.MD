@@ -10,7 +10,16 @@
 
 ```
 
-* 目录
+* 目录简介
+```
+    bintree    二叉树
+    graph      图
+    linkTalb   链表
+    threadtree 线索二叉树
+    sort       常见的排序
+```
+
+* 目录详细说明
 ```
 - **二叉树(bintree)**:
 
@@ -33,10 +42,14 @@
 
 - **排序(insert)**:
 
-    1. 插入排序
-    2. 选择排序
-    3. 冒泡排序
-    4. 快速排序
+    1. 插入排序---insertSort.cpp
+    2. 选择排序---selectSort.cpp
+    3. 冒泡排序---insertSort.cpp
+    4. 快速排序---quickSort.cpp
+    5. 归并排序---mergeSort.cpp
+    6. 希尔排序---shellSort.cpp
+    7. 堆排序  ---heapSort.cpp
+    8. 基数排序---radixSort.cpp
 
 
 - **链表(list)**:
