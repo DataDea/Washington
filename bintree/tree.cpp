@@ -238,3 +238,28 @@ void BinTree<T>::revertByStackBinTree(BinTreeNode<T> *node) {
     }
 }
 
+/**
+ * 二叉树的插入
+ * @tparam T
+ * @param el
+ */
+template<class T>
+void BinTree<T>::insert(const T& el) {
+    BinTreeNode<T> *p = root, *pre = 0;
+    while (p != 0) {
+        pre = p;
+        if (p->el < el) {
+            p = p->left;
+        } else {
+            p = p->right;
+        }
+    }
+    if (pre == 0) {
+        root = new BinTreeNode<T>(el);
+    } else if (el < pre->el) {
+        pre->left = new BinTreeNode<T>(el);
+    } else {
+        pre->right = new BinTreeNode<T>(el);
+    }
+}
+

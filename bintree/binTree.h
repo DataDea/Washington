@@ -90,7 +90,7 @@ public:
 
     void MorrisInorder();
 
-    void insert();
+    void insert(const T& el);
 
     void deleteBymerging(BinTreeNode<T> *&);
 
