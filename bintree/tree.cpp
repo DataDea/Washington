@@ -244,7 +244,7 @@ void BinTree<T>::revertByStackBinTree(BinTreeNode<T> *node) {
  * @param el
  */
 template<class T>
-void BinTree<T>::insert(const T& el) {
+void BinTree<T>::insert(const T &el) {
     BinTreeNode<T> *p = root, *pre = 0;
     while (p != 0) {
         pre = p;
@@ -262,4 +262,51 @@ void BinTree<T>::insert(const T& el) {
         pre->right = new BinTreeNode<T>(el);
     }
 }
+
+/**
+ * 由二叉树的前序和中序构建二叉树
+ */
+template<class T>
+BinTreeNode<T> *BinTree<T>::binTreeFromPreAndInOrderings(char *inorder, char *preorder, int length) {
+    if (length == 0) {
+        cout << "data is error" << endl;
+        return NULL;
+    }
+    BinTreeNode<T> *root = new BinTreeNode<char>();
+    root->el = *preorder;
+    int rootIndex = 0;
+    for (; rootIndex < length; rootIndex++) {
+        if (inorder[rootIndex] == *preorder) {
+            break;
+        }
+    }
+    root->left = binTreeFromPreAndInOrderings(inorder, preorder + 1, rootIndex);
+    root->right = binTreeFromPreAndInOrderings(inorder + 1, preorder + rootIndex + 1, length);
+    return root;
+}
+
+
+/**
+ * 由二叉树的中序和后序遍历构建二叉树
+ */
+template<class T>
+BinTreeNode<T> *BinTree<T>::binTreeFromPostAndInOrderings(char *postorder, char *inorder, int length) {
+    if (length == 0) {
+        cout << "data is error" << endl;
+        return NULL;
+    }
+    BinTreeNode<T> *root = new BinTreeNode<char>;
+    root->el = postorder[length - 1];
+    int rootIndex = 0;
+    for (; rootIndex < length; rootIndex++) {
+        if (inorder[rootIndex] == postorder[length - 1]) {
+            break;
+        }
+    }
+    root->left = binTreeFromPostAndInOrderings(postorder, inorder, rootIndex);
+    root->right = binTreeFromPostAndInOrderings(postorder + rootIndex + 1, inorder + rootIndex + 1,
+                                                length - (rootIndex + 1));
+    return root;
+}
+
 

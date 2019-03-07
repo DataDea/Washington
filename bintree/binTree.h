@@ -90,7 +90,7 @@ public:
 
     void MorrisInorder();
 
-    void insert(const T& el);
+    void insert(const T &el);
 
     void deleteBymerging(BinTreeNode<T> *&);
 
@@ -102,7 +102,12 @@ public:
 
     void revertByQueueBinTree();
 
-    void revertByStackBinTree(BinTreeNode<T>* node);
+    void revertByStackBinTree(BinTreeNode<T> *node);
+
+    BinTreeNode<T> *binTreeFromPreAndInOrderings(char *inorder, char *preorder, int length);
+
+    BinTreeNode<T> *binTreeFromPostAndInOrderings(char *postorder, char *preorder, int length);
+
 
 };
 

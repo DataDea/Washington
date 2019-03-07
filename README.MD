@@ -40,7 +40,8 @@
             2.2.2 中序---iterativePostorder<br>
             2.2.3 后序---iterativePostorder<br>
             2.2.4 广度遍历---breadthFirst<br>
-
+    3. 构建二叉树
+        3.1 前序遍历和中序遍历构建二叉树---binTreeFromPreAndInOrderings
 - **线索二叉树(threadTree)**:
 
     1. 创建线索二叉树---createThreadTree
