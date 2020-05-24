@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/sort.dir/radixSort.cpp.o"
   "CMakeFiles/sort.dir/selectSort.cpp.o"
   "CMakeFiles/sort.dir/shellSort.cpp.o"
-  "libsort.pdb"
   "libsort.a"
+  "libsort.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

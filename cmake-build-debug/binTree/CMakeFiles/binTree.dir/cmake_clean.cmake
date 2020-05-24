@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bintree.dir/init.cpp.o"
   "CMakeFiles/bintree.dir/tree.cpp.o"
-  "libbintree.pdb"
   "libbintree.a"
+  "libbintree.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
